@@ -1,0 +1,17 @@
+<div class="ke-w-notification-message" ng-show="notifMessages">
+    <div class="ke-w-notification-message-messages" ng-repeat="item in notifMessages">
+        <div class="ke-w-notification-message-info" ng-show="item.type==='info'">
+
+        </div>
+        <div class="ke-w-notification-message-warn" ng-show="item.type==='warn'"></div>
+        <div class="ke-w-notification-message-error" ng-show="item.type==='error'"></div>
+        <div class="ke-w-notification-message-error" ng-show="item.type==='progress'"></div>
+        <div class="ke-w-notification-message-error" ng-show="item.type==='wait'">
+            <div class="ke-i-notification-message-title" ng-bind="item.title"></div>
+            <div class="ke-i-notification-message-msg" ng-bind="item.msg"></div>
+            <button class="ke-i-notification-message-cancel" ng-show="item.onOk" ng-click="item.onOk()">OK</button>
+            <button class="ke-i-notification-message-ok" ng-show="item.onCancel" ng-click="item.onCancel()">Cancel</button>
+        </div>
+    </div>
+</div>
+<!--id, scope, deferred, type, title, msg, onOk, onCancel, onNotify-->

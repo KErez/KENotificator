@@ -1,0 +1,29 @@
+{
+  "name": "KENotificator",
+  "version": "0.1.0",
+  "authors": [
+    "Kfir Erez <kfirerez75@gmail.com>"
+  ],
+  "description": "An angular.js module that includes directive and service. It present mesassages and notification messages of various types with customizble view, multiple managed messages, info/warning/error messages, progress bar or loading/waiting messages. The directive is managed by the service.",
+  "keywords": [
+    "[\"messages\"",
+    "\"notification\"",
+    "\"angularjs\"",
+    "\"progress\"",
+    "\"progress-bar\"",
+    "\"loading\"",
+    "\"wait\"",
+    "\"error\"",
+    "\"info\"",
+    "\"warn\"]"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
